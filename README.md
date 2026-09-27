@@ -1,48 +1,97 @@
-# Address Book Management System in C
+# 📒 Address Book
 
-A console-based Address Book application developed using the C programming language.  
-This project allows users to store, search, edit, and delete contact details efficiently using file handling concepts.
+## 📌 Description
 
----
+Address Book is a **command-line C application** used to manage contact information.
 
-## Features
+The application allows users to add, search, edit, delete, and list contacts. Contact information is stored in a file so that the data can be maintained between program executions.
 
-- Add new contacts
-- Search contact by name or number
-- Edit existing contact details
-- Delete contacts
-- Display all contacts
-- Save contacts permanently using file handling
+## 🚀 Features
 
----
+* Add a new contact
+* Search contacts
+* Edit existing contacts
+* Delete contacts
+* Display all contacts
+* Save contact information to a file
+* Search using name, phone number, or email
+* Store up to 100 contacts
 
-## Concepts Used
+## 🛠️ Technologies Used
 
-- Structures
-- Functions
-- Arrays
-- File Handling
-- String Manipulation
-- Modular Programming
+* **Language:** C
+* **Platform:** Linux
+* **Compiler:** GCC
+* **Storage:** File Handling
 
----
+## 🧠 Concepts Demonstrated
 
-## Project Structure
+* Structures
+* Arrays
+* Pointers
+* Functions
+* String Handling
+* File Handling
+* Searching
+* CRUD Operations
+* Modular Programming
 
-```text
-Address-Book-C/
-│
-├── include/
-│   └── contact.h
-│
-├── src/
-│   ├── main.c
-│   ├── contact.c
-│   └── file.c
-│
-├── data/
-│   └── contacts.txt
-│
-├── Makefile
-├── README.md
-└── .gitignore
+## 📂 Project Structure
+
+The project is organized into separate source and header files for handling:
+
+* Contact operations
+* Address book operations
+* File operations
+* Data population
+* Main application flow
+
+## 📋 Contact Information
+
+Each contact contains:
+
+* Name
+* Phone Number
+* Email Address
+
+## ⚙️ How to Compile
+
+```bash
+gcc *.c
+```
+
+## ▶️ How to Run
+
+```bash
+./a.out
+```
+
+Follow the menu options displayed by the application to manage contacts.
+
+## 🔍 Search
+
+The application supports searching contacts using:
+
+* Name
+* Phone number
+* Email address
+
+## 💾 File Storage
+
+Contact information is stored using file handling so that saved contacts can be loaded and managed when the application is run again.
+
+## 📚 What I Learned
+
+Through this project, I gained practical experience with:
+
+* Designing structures in C
+* Managing arrays of structures
+* Implementing CRUD operations
+* Searching data using multiple fields
+* Reading and writing data using files
+* Dividing a C application into multiple source files
+* Building a menu-driven command-line application
+
+## 🎯 Key Skills
+
+**C Programming • Structures • Arrays • Pointers • File Handling • String Handling • CRUD Operations • Modular Programming**
